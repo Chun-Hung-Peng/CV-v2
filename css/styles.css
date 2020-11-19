@@ -35,7 +35,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+article, aside, figcaption, footer, header, hgroup, main, nav, section {
   display: block;
 }
 
@@ -79,12 +79,6 @@ abbr[data-original-title] {
   border-bottom: 0;
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
-}
-
-address {
-  margin-bottom: 1rem;
-  font-style: normal;
-  line-height: inherit;
 }
 
 ol,
@@ -158,33 +152,9 @@ a:not([href]):not([class]):hover {
   text-decoration: none;
 }
 
-pre,
-code,
-kbd,
-samp {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  font-size: 1em;
-}
-
-pre {
-  margin-top: 0;
-  margin-bottom: 1rem;
-  overflow: auto;
-  -ms-overflow-style: scrollbar;
-}
-
-figure {
-  margin: 0 0 1rem;
-}
-
 img {
   vertical-align: middle;
   border-style: none;
-}
-
-svg {
-  overflow: hidden;
-  vertical-align: middle;
 }
 
 table {
@@ -326,11 +296,6 @@ output {
   display: inline-block;
 }
 
-summary {
-  display: list-item;
-  cursor: pointer;
-}
-
 template {
   display: none;
 }
@@ -468,53 +433,6 @@ mark,
   border-radius: 0.25rem;
   max-width: 100%;
   height: auto;
-}
-
-.figure {
-  display: inline-block;
-}
-
-.figure-img {
-  margin-bottom: 0.5rem;
-  line-height: 1;
-}
-
-.figure-caption {
-  font-size: 90%;
-  color: #6c757d;
-}
-
-code {
-  font-size: 87.5%;
-  color: #e83e8c;
-  word-wrap: break-word;
-}
-a > code {
-  color: inherit;
-}
-
-kbd {
-  padding: 0.2rem 0.4rem;
-  font-size: 87.5%;
-  color: #fff;
-  background-color: #212529;
-  border-radius: 0.2rem;
-}
-kbd kbd {
-  padding: 0;
-  font-size: 100%;
-  font-weight: 700;
-}
-
-pre {
-  display: block;
-  font-size: 87.5%;
-  color: #212529;
-}
-pre code {
-  font-size: inherit;
-  color: inherit;
-  word-break: normal;
 }
 
 .pre-scrollable {
