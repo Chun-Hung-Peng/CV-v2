@@ -1,1 +1,1 @@
-[CV](https://chun-hung-peng.github.io/chunhungsCV/Home)
+[Home](https://chun-hung-peng.github.io/chunhungsCV/Home)
